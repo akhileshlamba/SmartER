@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homepage"
+            android:icon="@drawable/common_google_signin_btn_icon_dark"
+            android:title="HomePage" />
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/common_google_signin_btn_icon_dark"
+            android:title="Map" />
+        <item
+            android:id="@+id/pie"
+            android:icon="@drawable/common_google_signin_btn_icon_dark"
+            android:title="Pie Chart Report" />
+        <item
+            android:id="@+id/bar"
+            android:icon="@drawable/common_google_signin_btn_icon_dark"
+            android:title="Bar Graph Report" />
+        <item
+            android:id="@+id/line"
+            android:icon="@drawable/common_google_signin_btn_icon_dark"
+            android:title="Line Chart Report" />
+    </group>
+
+</menu>

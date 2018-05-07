@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">SmartER</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_home">SmartER</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="occupants">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="energyprovider">
+        <item>Red Energy</item>
+        <item>Caltex</item>
+        <item>BP</item>
+        <item>Coles</item>
+        <item>AGL</item>
+        <item>Momentum Energy</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="usageType">
+        <item>Hourly</item>
+        <item>Daily</item>
+    </string-array>
+    <string name="title_activity_pie_chart">SmartER</string>
+
+</resources>

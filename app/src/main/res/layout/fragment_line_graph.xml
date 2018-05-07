@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.akhileshlamba.smarter.LineGraphFragment">
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_below="@+id/barPicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Spinner
+        android:id="@+id/barPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:id="@+id/pLDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/barPicker"
+        android:layout_below="@+id/barPicker"
+        android:text="Pick Date" />
+
+    <Button
+        android:id="@+id/vLReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barPicker"
+        android:layout_centerHorizontal="true"
+        android:text="View Report" />
+
+    <TextView
+        android:id="@+id/tLDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pLDate"
+        android:layout_alignStart="@+id/lineChart"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="27dp"
+        android:text="Date" />
+
+</RelativeLayout>
