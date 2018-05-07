@@ -1,1 +1,2 @@
 # SmartER
+The mobile app assists Victorian residents (energy consumers) with better energy management by providing related information, and enabling them to view their energy consumption reports. If the usage is high during peak hours, it will provide the user with a warning message. Alternatively, when the usage value is low, the user will receive an encouraging message to continue saving. The historical data usage can be viewed on an hourly or daily basis using different types of graphs on the mobile app.
